@@ -1,0 +1,106 @@
+/**
+ * Default theme
+ *
+ * @author          =undo= <g.fazioli@saidmade.com>
+ * @copyright       Copyright (C) 2010 Saidmade Srl
+ *
+ */
+
+/*
+ * Main container
+ */
+div.wp-blogbabel {
+    display:block;
+    width:100px;
+    height:100px;
+    background:#eee;
+    border:1px solid #aaa;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    font-family:Arial;
+    line-height:24px;
+}
+
+/*
+ * Use this setting for all links
+ */
+ div.wp-blogbabel a {
+     text-decoration:none;
+ }
+
+/*
+ * TopTen is a link to BlogBabel sheet
+ */
+div.wp-blogbabel div.topten {
+    text-align:center;
+}
+div.wp-blogbabel div.topten a {
+    background:#ccc;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    font-size:10px;
+    margin:4px 4px 0;
+    display:block;
+    border:1px solid #aaa;
+    line-height:14px;
+    height:16px;
+    color:#444;
+    text-shadow:1px 1px 1px #fff;
+}
+div.wp-blogbabel div.topten a span {}
+
+
+/*
+ * Site URL link
+ */
+div.wp-blogbabel div.url {
+    text-align:center;
+}
+div.wp-blogbabel div.url a {}
+div.wp-blogbabel div.url a span {}
+
+/*
+ * Rank
+ */
+div.wp-blogbabel div.rank {
+    text-align:center;
+    font-size:38px;
+    letter-spacing:-1px;
+    font-family:Arial;
+}
+div.wp-blogbabel div.rank span.label {
+    display:none;
+}
+
+/*
+ * Trend for Rank
+ */
+ div.wp-blogbabel div.rank span.up {
+     color:#0f0;
+ }
+ div.wp-blogbabel div.rank span.down {
+     color:#c00;
+ }
+ div.wp-blogbabel div.rank span.static {
+     color:#444;
+ }
+
+/*
+ * Trend
+ */
+div.wp-blogbabel div.trend {}
+div.wp-blogbabel div.up {}
+div.wp-blogbabel div.down {}
+div.wp-blogbabel div.static {}
+
+/* 
+ * Footer credits
+ */
+div.wp-blogbabel div.credits {
+    text-align:center;
+}
+div.wp-blogbabel div.credits a {
+    font-size:9px;
+    letter-spacing:-0.05em;
+    
+}

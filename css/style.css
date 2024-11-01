@@ -1,0 +1,37 @@
+/**
+ * Style Sheet for Admin
+ */
+div.arrow {
+	width:16px;
+	height:16px;
+	background:url(images/arrow_ns.png) no-repeat;
+	float:left;
+	margin:6px 8px 0 0;
+	cursor:pointer;
+}
+div.inline-edit {
+	padding:10px;
+	border:1px solid #888;
+	clear:both;
+	display:block;
+}
+ul.list-point {
+    list-style:square;
+    margin-left:22px;
+}
+table.form-table {
+    clear:none;
+}
+form.form_box {
+    
+}
+div#liquida-logo a span {
+    display:none;
+}
+div#liquida-logo a {
+    display:block;
+    width:220px;
+    height:75px;
+    margin:0 auto;
+    background:url(images/Liquida220x75.jpg) no-repeat;
+}
